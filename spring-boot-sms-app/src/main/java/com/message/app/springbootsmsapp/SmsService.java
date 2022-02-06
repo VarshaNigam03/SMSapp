@@ -11,9 +11,9 @@ import java.security.MessageDigest;
 @Component
 public class SmsService {
 
-    private final String ACCOUNT_SID = "ACe79475592fe13a12cc156ac282bd9b27";
-    private final String AUTH_TOKEN = "d71948dec871c242aca34df776157364";
-    private final String FROM_NUMBER = "+19034855849";
+    private final String ACCOUNT_SID = "ACe76349022fe13a12cc732ac282bd9b27";
+    private final String AUTH_TOKEN = "d93412frb871c242aca34df923512320";
+    private final String FROM_NUMBER = "+19653475849";
 
     public void send(SmsPOJO sms){
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
